@@ -7,11 +7,17 @@
 * You're free to add application-wide styles to this file and they'll appear at the top of the
 * compiled file, but it's generally better to create a new file per style scope.
 *
-*= require bootstrap/css/bootstrap.min
-*= require dist/css/AdminLTE.min
-*= require dist/css/skins/skin-blue.min
-*= require dist/css/skins/skin-blue.min
-*= require plugins/datatables/dataTables.bootstrap
-
-
+*= require bootstrap
+*# require grails
+*# require main
+*# require mobile
+*= require_self
+#= require bootstrap-theme
+*= require font-awesome.min
+*= require AdminLTE.min
+#= require_tree skins
+*= require skins/_all-skins.min
+*= require font-awesome.min
+*= require ionicons.min
 */
+

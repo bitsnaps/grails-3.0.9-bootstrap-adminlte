@@ -5,13 +5,19 @@
 // You're free to add application-wide JavaScript to this file, but it's generally better
 // to create separate JavaScript files as needed.
 //
-//= require plugins/jQuery/jQuery-2.1.4.min
+//= require jquery-2.2.0.min
+//# require jquery-ui.min
 //= require_tree .
 //= require_self
-//= require bootstrap/js/bootstrap.min
+//= require bootstrap.min
 //= require plugins/datatables/jquery.dataTables.min
 //= require plugins/datatables/dataTables.bootstrap.min
-
+//= require jquery.slimScroll.min
+//= require fastclick.min
+//= require app.min
+//= require icheck.min
+//= require jquery.sparkline.min
+//= require main.js
 
 var AdminLTEOptions = {
     //Enable sidebar expand on hover effect for sidebar mini
@@ -23,9 +29,7 @@ var AdminLTEOptions = {
     //Bootstrap.js tooltip
     enableBSToppltip: true
   };
-
-//= require dist/js/app.min
-
+  
 if (typeof jQuery !== 'undefined') {
     (function($) {
         $('#spinner').ajaxStart(function() {
