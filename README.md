@@ -15,7 +15,9 @@ Example and base project that integrates Grails 3.1 and AdminLTE-2 Bootstrap Tem
 
 - This template use `<h:graphicImage />` for images instead of `<img src=... />` tag.
 
-- Simple starting page to kickoff your project 
+- This template use the same Bootstrap.[css,js] & jQuery which comes with default Grails 3.1 project, so you don't need to have two version of jquery and two version of bootstrap in your assets.
+
+- Simplified starting page to kickoff your project.
 
 # TODO: 
 - The `src` directory contains a scaffolding sources which needs to be updated for a better UI CRUD using other plugins (e.g. DataTables...).
